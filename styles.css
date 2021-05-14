@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.no-underline {
+  text-decoration: none !important
+}
+
+.text-lightgrey {
+    color: #d3d3d3;
+}
+
+.btn-lightgrey {
+    color: black;
+    background-color: #d3d3d3;
+    border-color: #6c757d;
+}
+
+.btn-lightgrey:hover {
+    background-color: #c3c3c3;
+}
+
+
+.black-border {
+    border: 1px solid black;
+}
