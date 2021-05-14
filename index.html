@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -53,14 +57,12 @@
                     <div class="modal-body">
                         <textarea class="form-control black-border" id="exampleFormControlTextarea1" rows="2"></textarea>
                         <div class="d-flex my-2">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-square-o fa-stack-2x text-lightgrey"></i>
-                                <i class="fa fa-camera fa-stack-1x mr-1 text-secondary" aria-hidden="true"></i>
-                            </span>
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-square-o fa-stack-2x text-lightgrey"></i>
-                                <i class="fa fa-map-marker fa-stack-1x text-secondary" aria-hidden="true"></i>
-                            </span>
+                            <button type="button" class="btn btn-sq-xs btn-outline-secondary btn-empty-lightgrey mr-1">
+                                <i class="fa fa-camera fa-1x text-dark" aria-hidden="true"></i>
+                            </button>
+                            <button type="button" class="btn btn-sq-xs btn-outline-secondary btn-empty-lightgrey">
+                                <i class="fa fa-map-marker fa-1x text-dark" aria-hidden="true"></i>
+                            </button>
                         </div>
                     </div>
                     <div class="modal-footer">
