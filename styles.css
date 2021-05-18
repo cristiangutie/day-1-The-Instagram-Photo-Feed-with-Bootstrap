@@ -28,6 +28,10 @@ h1 {
     padding: 0 10%;
 }
 
+.bg-lightgrey {
+    background: #d3d3d3;;
+}
+
 /* typography */
 
 .text-lightgrey {
